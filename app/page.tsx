@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Calendar, Users, Briefcase, BookOpen, ArrowRight, Target, Heart, Lightbulb } from 'lucide-react';
 
 export default function Home() {
@@ -7,6 +8,17 @@ export default function Home() {
       <section className="relative bg-gradient-to-br from-[#003366] to-[#004080] text-white py-20 md:py-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
+            <div className="flex justify-center mb-8">
+              <Image
+                src="/fau-logo.svg"
+                alt="Florida Atlantic University Owls"
+                width={150}
+                height={150}
+                className="drop-shadow-2xl"
+                priority
+                unoptimized
+              />
+            </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Women in Computer Science & Engineering
             </h1>
