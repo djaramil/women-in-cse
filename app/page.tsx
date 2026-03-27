@@ -10,7 +10,7 @@ export default function Home() {
           <div className="text-center">
             <div className="flex justify-center mb-8">
               <Image
-                src="/fau-logo.svg"
+                src="/FAU-Owls-logo.svg"
                 alt="Florida Atlantic University Owls"
                 width={150}
                 height={150}
